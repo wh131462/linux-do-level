@@ -2,7 +2,7 @@
 // @name         linux.do 等级查询
 // @namespace    https://linux.do/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=linux.do
-// @version      1.3.3
+// @version      1.0.4
 // @description  linux.do 等级查询（原版 by ccc9527-c，MIT 修改 by EternalHeart）
 // @author       ccc9527-c
 // @author       EternalHeart
@@ -184,6 +184,11 @@
       color: var(--primary-medium, #a3a3a3);
       letter-spacing: 0.6px;
       text-transform: lowercase;
+      text-decoration: none;
+      transition: color 0.14s;
+    }
+    .ld-level-sec-title .source-tag:hover {
+      color: var(--primary, #171717);
     }
     .ld-level-sec-title .source-tag::before { content: "["; }
     .ld-level-sec-title .source-tag::after { content: "]"; }
@@ -394,6 +399,16 @@
       font-size: 10px;
       color: var(--primary-medium, #a3a3a3);
       letter-spacing: 0.3px;
+    }
+    .ld-level-source-footer a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.14s;
+    }
+    .ld-level-source-footer a:hover {
+      color: var(--primary, #171717);
+      text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     /* 加载状态 */
@@ -885,8 +900,11 @@
         const content = modal.querySelector("#ld-level-content");
         const { level, items, source } = data;
 
-        // 数据来源标签
-        const sourceTag = source === "connect" ? "Connect" : "Summary";
+        // 数据来源标签与链接
+        const sourceTag = source === "connect" ? "connect" : "summary";
+        const sourceUrl = source === "connect"
+            ? "https://connect.linux.do/"
+            : `https://linux.do/u/${username}/summary`;
 
         // 升级要求列表
         let listHtml = "";
@@ -900,7 +918,7 @@
             listHtml = `
         <div class="ld-level-sec-title">
           ${sectionLabel}
-          <span class="source-tag">${sourceTag}</span>
+          <a href="${sourceUrl}" target="_blank" class="source-tag">${sourceTag}</a>
         </div>
         ${items.map(renderProgressItem).join("")}
       `;
@@ -1185,7 +1203,7 @@
       ${barsHtml}
       ${complianceHtml}
       <div class="ld-level-source-footer">
-        <span>SOURCE / connect.linux.do</span>
+        <span>SOURCE / <a href="https://connect.linux.do/" target="_blank">connect.linux.do</a></span>
       </div>
     `;
 
