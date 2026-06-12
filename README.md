@@ -20,9 +20,14 @@ linux.do 等级查询用户脚本，支持查看信任等级和升级进度。
 
 ## 作者
 
-- 原作者: ccc9527-c
+- 原作者: ccc9527-c [脚本地址](https://greasyfork.org/zh-CN/scripts/577413-linux-do-%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2)
 - 修改: EternalHeart
 
 ## 许可证
 
 MIT License
+
+## 友链
+
+[linux.do](https://linux.do)
+[v2ex](https://www.v2ex.com/)
