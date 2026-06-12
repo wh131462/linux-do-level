@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         linux.do 等级查询 - 增强版
+// @name         linux.do 等级查询
 // @namespace    https://linux.do/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=linux.do
-// @version      1.3.1-mod.1
+// @version      1.3.2
 // @description  linux.do 等级查询（原版 by ccc9527-c，MIT 修改 by EternalHeart）
 // @author       ccc9527-c
 // @author       EternalHeart
@@ -14,8 +14,10 @@
 // @grant        unsafeWindow
 // @connect      connect.linux.do
 // @license      MIT
-// @downloadURL  https://你的新脚本地址.user.js  (如果你重新发布)
-// @updateURL    https://你的新脚本地址.meta.js (如果你重新发布)
+// @homepageURL  https://github.com/wh131462/linux-do-level
+// @supportURL   https://github.com/wh131462/linux-do-level/issues
+// @downloadURL  https://update.greasyfork.org/scripts/582294/linux.do%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2%20-%20%E5%A2%9E%E5%BC%BA%E7%89%88.user.js
+// @updateURL    https://update.greasyfork.org/scripts/582294/linux.do%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2%20-%20%E5%A2%9E%E5%BC%BA%E7%89%88.meta.js
 // ==/UserScript==
 
 (function () {
