@@ -2,7 +2,7 @@
 // @name         linux.do 等级查询
 // @namespace    https://linux.do/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=linux.do
-// @version      1.3.2
+// @version      1.3.3
 // @description  linux.do 等级查询（原版 by ccc9527-c，MIT 修改 by EternalHeart）
 // @author       ccc9527-c
 // @author       EternalHeart
@@ -866,7 +866,7 @@
           <span class="ld-level-item-name">${item.name}</span>
           <span class="ld-level-item-value" style="color:${valColor}">
             ${item.current}
-            <span class="target">/ ${item.target ?? "-"}</span>
+            <span class="target">${item.target ?? "-"}</span>
           </span>
         </div>
         <div class="ld-level-progress">
@@ -1135,7 +1135,7 @@
                 <span class="ld-level-item-name">${b.label}</span>
                 <span class="ld-level-item-value" style="color:${valColor}">
                   ${fmtNum(b.val)}
-                  <span class="target">/ ${fmtNum(b.max)}</span>
+                  <span class="target">${fmtNum(b.max)}</span>
                 </span>
               </div>
               <div class="ld-level-progress">
