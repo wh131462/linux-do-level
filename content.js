@@ -16,8 +16,8 @@
 // @license      MIT
 // @homepageURL  https://github.com/wh131462/linux-do-level
 // @supportURL   https://github.com/wh131462/linux-do-level/issues
-// @downloadURL  https://update.greasyfork.org/scripts/582294/linux.do%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2%20-%20%E5%A2%9E%E5%BC%BA%E7%89%88.user.js
-// @updateURL    https://update.greasyfork.org/scripts/582294/linux.do%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2%20-%20%E5%A2%9E%E5%BC%BA%E7%89%88.meta.js
+// @downloadURL  https://update.greasyfork.org/scripts/582296/linuxdo%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2.user.js
+// @updateURL    https://update.greasyfork.org/scripts/582296/linuxdo%20%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2.meta.js
 // ==/UserScript==
 
 (function () {

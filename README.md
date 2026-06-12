@@ -12,7 +12,7 @@ linux.do 等级查询用户脚本，支持查看信任等级和升级进度。
 ## 安装
 
 1. 安装浏览器扩展：[Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
-2. [点击安装脚本](https://greasyfork.org/zh-CN/scripts/582294)
+2. [点击安装脚本](https://greasyfork.org/zh-CN/scripts/582296-linux-do-%E7%AD%89%E7%BA%A7%E6%9F%A5%E8%AF%A2)
 
 ## 使用
 
